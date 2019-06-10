@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Módulo 1 | Wilker Vinicios</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+   
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Início</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdownThemes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matérias</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownThemes">
+
+					<h6 class="dropdown-header">Matérias do Módulo 1:</h6>
+					<a class="dropdown-item js-scroll-trigger" href="#descricao">Descrição</a>
+					<a class="dropdown-item js-scroll-trigger" href="#logica">Lógica de Programação e Algoritmos</a>
+					<a class="dropdown-item js-scroll-trigger" href="#matematica">Matemática Aplicada</a>
+					<a class="dropdown-item js-scroll-trigger" href="#comunicacao">Comunicação Empresarial</a>
+					<a class="dropdown-item js-scroll-trigger" href="#redes">Redes de Computadores</a>
+					<a class="dropdown-item js-scroll-trigger" href="#laboratorio">Laboratório de Computação</a>
+					<a class="dropdown-item js-scroll-trigger" href="#si">Princípios de Segurança da Informação</a>
+				</li>
+			</ul>		
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-secondary text-light" style="background-image: url('img/logo5.jpg')">
+      <div class="container text-center">
+        <h1>Módulo 1</h1>
+        <p class="lead"><b>"Cifra de Hill"</b></p>
+      </div>
+    </header>
+    <section id="descricao" class="bg-lighter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Descrição</h2>
+            <p class="lead">Cifra de Hill.</p>
+            <ul>
+              <li>Desenvolver um programa que implemente o método de criptografia "Cifra de Hill", que foi inventado pelo matemático americano Lester S. Hill em 1929 e que utiliza da Álgebra Linear para codificar e decodificar uma matéria através da multiplicação de matrizes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logica" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Lógica de Programação e Algoritmos</h2>
+            <p class="lead">Prof: Fabricio Leonard Leopoldino.</p>
+			<ul>
+              <li>Implementar o sistema computacional, em Java, atendendo as regras especificadas para codificar e decodificar mensagens através da "Cifra de Hill".</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <section id="matematica" class="bg-lighter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Matemática Aplicada</h2>
+		    <p class="lead"> Profª: Fabiola de Carvalho Teixeira.</p>
+			<ul>
+              <li>O programa deve ler uma matriz quadrada e verificar se essa atende às regras: a matriz precisa ser inversível e o determinante diferente de 0.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comunicacao" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Comunicação Empresarial</h2>
+		    <p class="lead">Prof: Marcelo Almdeida Gonzaga.</p>
+			<ul>
+              <li>Representar uma comunicação empresarial sigilosa, ou seja, para transmitir e necessário uma aplicação segura. Neste caso este documento será criptografado e descriptografado pelo sistema computacional desenvolvido neste projeto.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<section id="redes" class="bg-lighter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Redes de Computadores</h2>
+		    <p class="lead">Prof: Fernando Pirkel Tsukahara.</p>
+			<ul>
+              <li>Descrever a estrutura básica de uma aplicação de rede que utiliza sockets para implementação de um chat que faça uso da "Cifra de Hill".</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section id="laboratorio" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Laboratório de Computação</h2>
+		    <p class="lead">Prof: Willians Santos.</p>
+			<ul>
+              <li>A ação de codificar e decodificar aplicada a cifra de hill deve ser baseada na tabela ASCII, ou seja, modular a 256 caracteres. O programa Java desenvolvido deverá ter uma versão para ser executada no Linux, onde a matriz a ser usada para codificar e decodificar o texto, bem como o texto a ser codificado ou decodificado, deverão ser lidos a partir de dois arquivos: um para a matriz e outro para o texto. A saída do programa deverá ser gravado em um outro arquivo. Esses arquivos poderão ser fornecidos a partir da linha de comando quando for executar o programa. Requisitos de segurança (permissões de acesso):</li>
+              <li>O programa somente poderá ser executado pelo seu dono.</li>
+			  <li>Os arquivos de entrada: - Matriz: permissão de acesso somente pelo dono, com permissão de leitura.</li>
+			  <li>Texto: Permissão de acesso somente pelo dono, com permissões de leitura e gravação.</li>
+			  <li>Arquivo de saída: permissão de acesso somente pelo dono, com permissões de leitura e gravação.</li>
+		   </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section id="si" class="bg-lighter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Princípios de Segurança da Informação</h2>
+		    <p class="lead">Prof: Rafael Leal Martins.</p>
+			<ul>
+              <li>Fazer o uso da "Cifra de Hill" na criação do sistema computacional.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Wilker V. dos Santos | Faculdade Senac 2018/1</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
